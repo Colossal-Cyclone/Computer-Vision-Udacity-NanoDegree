@@ -1,41 +1,16 @@
-# Computer-Vision-Udacity-NanoDegree
-Nanodegree projects# Computer Vision Nanodegree
-This repository contains my exercises and projects for the [Computer Vision Nanodegree ](https://www.udacity.com/course/computer-vision-nanodegree--nd891) at [Udacity](https://Udacity.com).
+# Computer-Vision-Nanodegree-Program
+Udacity Computer Vision Nanodegree Program 
 
-## Project 1: Facial Keypoint Detection
+Project 1:Facial Keypoint Detection
+Project Overview
+In this project, you’ll combine your knowledge of computer vision techniques and deep learning architectures to build a facial keypoint detection system that takes in any image with faces, and predicts the location of 68 distinguishing keypoints on each face!
 
-[Facial Keypoint Detection Project](project_1_facial_keypoints)<br/>
+Project 2:Image Captioning
+Project Overview
+In this project, you will create a neural network architecture to automatically generate captions from images.
+After using the Microsoft Common Objects in COntext (MS COCO) dataset to train your network, you will test your network on novel images!
 
-In this project, I build a facial keypoint detection system. The system consists of a face detector that uses Haar Cascades and a Convolutional Neural Network (CNN) that predict the facial keypoints in the detected faces. The facial keypoint detection system takes in any image with faces and predicts the location of 68 distinguishing keypoints on each face.
+Project 3: Landmark Detection & Robot Tracking (SLAM)
+Project Overview
+In this project, you'll implement SLAM (Simultaneous Localization and Mapping) for a 2 dimensional world! You’ll combine what you know about robot sensor measurements and movement to create a map of an environment from only sensor and motion data gathered by a robot, over time. SLAM gives you a way to track the location of a robot in the world in real-time and identify the locations of landmarks such as buildings, trees, rocks, and other world features. This is an active area of research in the fields of robotics and autonomous systems.
 
-Some results from my facial keypoint detection system:
-
-<img src="images/beatles_resnet.png" width="512">
-<img src="gifs/face_mask_test.gif?" width="512"><br>
-
-The Udacity repository for this project: [P1_Facial_Keypoints](https://github.com/udacity/P1_Facial_Keypoints)
-
-## Project 2: Image Captioning
-
-[Image Captioning Project](project_2_image_captioning_project)<br/>
-
-In this project, I design and train a CNN-RNN (Convolutional Neural Network - Recurrent Neural Network) model for  automatically generating image captions. The network is trained on the Microsoft Common Objects in COntext [(MS COCO)](http://cocodataset.org/#home) dataset. The image captioning model is displayed below.
-
-![Image Captioning Model](images/cnn_rnn_model.png?raw=true) [Image source](https://arxiv.org/pdf/1411.4555.pdf)
-
-One good and one not so good sample made by my model:
-
-![sample_171](images/sample_171.png?raw=true)<br/>
-![sample_193](images/sample_193.png?raw=true)<br/>
-
-The Udacity repository for this project: [CVND---Image-Captioning-Project](https://github.com/udacity/CVND---Image-Captioning-Project)
-
-## Project 3: Landmark Detection
-
-[Landmark Detection Project](project_3_landmark_detection)<br/>
-
-In this project, I implement SLAM (Simultaneous Localization and Mapping) for a 2-dimensional world.  Sensor and motion data gathered by a simulated robot is used to create a map of an environment. SLAM gives us a way to track the location of a robot in the world in real-time and identify the locations of landmarks such as buildings, trees, rocks, etc.
-
- <img src="images/robot_world.png?" width="512">
-
-The Udacity repository for this project: [Project_Landmark Detection](https://github.com/udacity/CVND_Localization_Exercises/tree/master/Project_Landmark%20Detection)
